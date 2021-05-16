@@ -45,7 +45,7 @@ int solution(long long num) {
     if(num >= ordinaryNum[i])
       ++answer;
     else
-      return answer;
+      break;
   }
-  return 81;
+  return answer;
 }
